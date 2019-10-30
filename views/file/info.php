@@ -34,6 +34,7 @@ $bundle = FilemanagerAsset::register($this);
 </ul>
 
 <div class="filename"><?= $model->filename ?></div>
+<div class="filename"><?= $model->url ?></div>
 
 <?php $form = ActiveForm::begin([
     'action' => ['file/update', 'id' => $model->id],
