@@ -15,7 +15,7 @@ use yii\bootstrap\ActiveForm;
 		'options' => ['multiple' => true],
 		'addon' => [
 			'append' => [
-				'content' => Html::submitButton(Module::t('main', 'Search'), ['class' => 'btn btn-primary']),
+				'content' => Html::submitButton(Module::t('main', 'Search'), ['class' => 'btn btn-primary', 'style' => 'position: relative']),
 				'asButton' => true
 			]
 		]
