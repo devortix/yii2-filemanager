@@ -1,12 +1,12 @@
 <?php
 
-namespace pendalf89\filemanager\assets;
+namespace devortix\filemanager\assets;
 
 use yii\web\AssetBundle;
 
 class FilemanagerAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/pendalf89/yii2-filemanager/assets/source';
+    public $sourcePath = '@vendor/devortix/yii2-filemanager/assets/source';
     public $css = [
         'css/filemanager.css',
     ];

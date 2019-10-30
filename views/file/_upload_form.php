@@ -2,7 +2,7 @@
 /** @var \dosamigos\fileupload\FileUploadUI $this */
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
-use pendalf89\filemanager\models\Tag;
+use devortix\filemanager\models\Tag;
 
 $context = $this->context;
 ?>
